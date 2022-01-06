@@ -1,3 +1,21 @@
+body {
+  background: var(--clr-pink);
+}
+
+.container {
+  width: 90vw;
+  margin: 5rem 0;
+  max-width: 450px;
+  max-width: var(--fixed-width);
+  background: #fff;
+  background: var(--clr-white);
+  border-radius: 0.25rem;
+  border-radius: var(--radius);
+  padding: 1.5rem 2rem;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 40%);
+  box-shadow: var(--dark-shadow);
+}
+
 .App {
   text-align: center;
 }
